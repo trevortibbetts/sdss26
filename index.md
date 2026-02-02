@@ -1,15 +1,7 @@
 # Spatial Data Science Summit 2026
-<<<<<<< HEAD
-
-=======
->>>>>>> dylan-main
 
 *Spatial Data Science Summit 15-16 March 2026 - Berkeley, CA*
 
-<<<<<<< HEAD
-I'm building the map on this PR
-
-=======
 ## Sponsors
 
 ### Presenting sponsor
@@ -31,4 +23,4 @@ Thank you to Berkeley Institute for Data Science for providing staff and venue i
 ```{embed} #fig:event-map
 :remove-input: true
 :remove-output: false
->>>>>>> dylan-main
+

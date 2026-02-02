@@ -1,3 +1,4 @@
+---
 version: 1
 
 project:
@@ -9,28 +10,25 @@ project:
 
 site:
   title: "Spatial Data Science Summit 2026"
-  url: "https://fiendskrah.github.io"
+  url: "https://github.com/Center-for-Open-Geographical-Science/sdss26.github.io"
   baseurl: "/sdss26"
-  options:
-    hide_toc: true
-    logo_text: SDSS26
-    
+
   nav:
     - title: "Home"
-      url: "/sdss26"
+      url: "/"
     - title: "About"
-      url: "/sdss26/about"
+      url: "/about"
     - title: "Program"
-      url: "/sdss26/program"
+      url: "/program"
     - title: "Logistics"
-      url: "/sdss26/logistics"
+      url: "/logistics"
 
   actions:
     - title: "GitHub"
-      url: "https://github.com/fiendskrah/sdss26"
+      url: "https://github.com/Center-for-Open-Geographical-Science/sdss26"
 
 repository:
-  url: "https://github.com/fiendskrah/sdss26"
+  url: "https://github.com/Center-for-Open-Geographical-Science/sdss26"
   branch: "main"
 
 execute:
@@ -47,10 +45,9 @@ parse:
 
 sphinx:
   config:
-    html_logo: "_static/cogs.png"
     html_theme: "sphinx_book_theme"
     html_theme_options:
-      repository_url: "https://github.com/fiendskrah/sdss26"
+      repository_url: "https://github.com/Center-for-Open-Geographical-Science/sdss26"
       use_repository_button: true
       use_edit_page_button: true
       use_issues_button: true
@@ -58,4 +55,4 @@ sphinx:
       - myst_nb
       - sphinx_copybutton
       - sphinx_design
-
+---
