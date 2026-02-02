@@ -1,0 +1,18 @@
+name: myst-site
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12	
+  - pip
+  - mystmd
+  - jupyter
+  - ipykernel
+  - geopandas
+  - shapely
+  - pyproj
+  - fiona
+  - matplotlib
+  - folium
+  - pandas
+  - numpy
